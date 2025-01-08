@@ -12,7 +12,7 @@ body {
   letter-spacing: normal;
   word-spacing: normal;
   background: #f1f1f1;
-  color: #0F141E;
+  color: #0f141e;
 }
 
 .info-text p {
@@ -55,14 +55,10 @@ body {
   margin-top: 10px;
 }
 
-.spisoc {
-  margin-left: 15px;
-} 
-
 a {
   color: Navy;
   text-decoration: none;
-  transition: all .5s;
+  transition: all 0.5s;
 }
 
 a:hover {
@@ -91,3 +87,48 @@ a:active {
   /* color: red;
   background-color: navy; */
 }
+
+.list {
+  margin: 0;
+  padding: 0;
+}
+
+.list li {
+  margin-left: 15px;
+}
+
+.table {
+  position: relative;
+  left: -30px;
+}
+
+.table th {
+  padding-left: 30px;
+}
+
+.table thead {
+  text-align: left;
+}
+
+.table td {
+  padding-left: 30px;
+}
+
+/* .table td:hover {
+  background-color: #eeefff;
+} */
+
+/* .table tr:nth-child(even) {
+  background-color: #eee;
+} */
+
+/* .table tr:nth-child(odd) {
+  background-color: #eee;
+} */
+
+/* .table td:nth-child(2), .table td:nth-child(4) {
+  background: #fffeee; */
+
+/* .navbar {
+  background-color: lightblue;
+} */
