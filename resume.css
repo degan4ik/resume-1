@@ -132,3 +132,12 @@ a:active {
 /* .navbar {
   background-color: lightblue;
 } */
+
+.info {
+  display: flex;
+}
+
+.info2 {
+  margin-top: 45px;
+  margin-left: 40px;
+}
